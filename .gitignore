@@ -1,0 +1,17 @@
+# 機密設定（機器人金鑰、收款地址），絕對不要提交
+.env
+server.env
+
+# 資料庫（含用戶與訂單資料）
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python 執行環境與快取
+.venv/
+__pycache__/
+*.pyc
+
+# 系統檔
+.DS_Store
